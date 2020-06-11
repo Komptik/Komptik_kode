@@ -1,0 +1,30 @@
+{
+  "name": "KompTIK",
+  "short_name": "KompTIK",
+  "start_url": "https://WWW.komptik.id/",
+  "display": "standalone",
+  "background_color": "#fff",
+  "theme_color": "#C51162",
+  "description": "Blog yang ditampilkan hanya text saja, tetapi di postingan bisa ditambah image dan video Youtube.",
+  "icons": [{
+    "src": "https://1.bp.blogspot.com/-QRIejrI1VD4/XuJC6w47T-I/AAAAAAAAA74/_I2WqbC-zl4lles-VTGB_uTAA24Nf836gCLcBGAsYHQ/s1600/android-icon-48x48.png",
+    "sizes": "48x48",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-HgStNPogQ0A/XuJDBdGkyYI/AAAAAAAAA78/YQtfSJH2B_gq_NkoFJr3cXoKbFHp7aJxgCLcBGAsYHQ/s1600/android-icon-72x72.png",
+    "sizes": "72x72",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-8ZgO9N1PBnM/XuJDJVJNGwI/AAAAAAAAA8A/uugvvgNjKY0_WRYj9ETogAJZCgD82KZHQCLcBGAsYHQ/s1600/android-icon-96x96.png",
+    "sizes": "96x96",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-mcvIuwwbpeg/XlAXbJlm1FI/AAAAAAAAA1c/HnEh7DKBB2UJawae-YLwbHTcZplS8ki3wCLcBGAsYHQ/s1600/ms-icon-144x144.png",
+    "sizes": "144x144",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-h8vrT7rAaMk/XlAW5J7GCBI/AAAAAAAAA1U/WiM0Vn9oWjonf6Fc7SYDYG0wEL5rmGAXACEwYBhgL/s1600/android-icon-192x192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }]
+}
