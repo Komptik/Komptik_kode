@@ -1,30 +1,38 @@
 {
-  "name": "KompTIK",
-  "short_name": "KompTIK",
-  "start_url": "https://WWW.komptik.id/",
+  "name": "Komptik.",
+  "short_name": "Komptik.",
+  "start_url": "https://www.komptik.id/",
   "display": "standalone",
   "background_color": "#fff",
   "theme_color": "#C51162",
-  "description": "Blog yang ditampilkan hanya text saja, tetapi di postingan bisa ditambah image dan video Youtube.",
+  "description": "Situs pembelajaran dan share informasi tentang Teknologi Informasi, Teknologi Informasi Komunikasi, IT Support dan lainnya.",
   "icons": [{
-    "src": "https://1.bp.blogspot.com/-QRIejrI1VD4/XuJC6w47T-I/AAAAAAAAA74/_I2WqbC-zl4lles-VTGB_uTAA24Nf836gCLcBGAsYHQ/s1600/android-icon-48x48.png",
+    "src": "https://1.bp.blogspot.com/-KMNl1nZ3PyM/XxMGYBjYXCI/AAAAAAAABD8/3VS9IAjH0Q4U5L0rY4xklQC0XcsmAzVtgCLcBGAsYHQ/s0/komptik-apps-icon48.png",
     "sizes": "48x48",
     "type": "image/png"
   }, {
-    "src": "https://1.bp.blogspot.com/-HgStNPogQ0A/XuJDBdGkyYI/AAAAAAAAA78/YQtfSJH2B_gq_NkoFJr3cXoKbFHp7aJxgCLcBGAsYHQ/s1600/android-icon-72x72.png",
+    "src": "https://1.bp.blogspot.com/-uX0PwvZYP1Y/XxMGYgEdh2I/AAAAAAAABEE/WB20LMxM4Zw4Y5rQf_niqR7grI12-tU3gCLcBGAsYHQ/s0/komptik-apps-icon72.png",
     "sizes": "72x72",
     "type": "image/png"
   }, {
-    "src": "https://1.bp.blogspot.com/-8ZgO9N1PBnM/XuJDJVJNGwI/AAAAAAAAA8A/uugvvgNjKY0_WRYj9ETogAJZCgD82KZHQCLcBGAsYHQ/s1600/android-icon-96x96.png",
+    "src": "https://1.bp.blogspot.com/-fWoefTkWJb4/XxMGY1PI9-I/AAAAAAAABEI/o-L7ehWHSHsCserVL4g4JomhskvA7vS2gCLcBGAsYHQ/s0/komptik-apps-icon96.png",
     "sizes": "96x96",
     "type": "image/png"
   }, {
-    "src": "https://1.bp.blogspot.com/-mcvIuwwbpeg/XlAXbJlm1FI/AAAAAAAAA1c/HnEh7DKBB2UJawae-YLwbHTcZplS8ki3wCLcBGAsYHQ/s1600/ms-icon-144x144.png",
+    "src": "https://1.bp.blogspot.com/-iJhISNSlOlM/XwxcnLN_6II/AAAAAAAABDI/CHHbuVDmH0cIrPcBjNPlnWxA3AbP3H4uQCLcBGAsYHQ/s0/komptik-apps-icon144.png",
     "sizes": "144x144",
     "type": "image/png"
   }, {
-    "src": "https://1.bp.blogspot.com/-h8vrT7rAaMk/XlAW5J7GCBI/AAAAAAAAA1U/WiM0Vn9oWjonf6Fc7SYDYG0wEL5rmGAXACEwYBhgL/s1600/android-icon-192x192.png",
+    "src": "https://1.bp.blogspot.com/-O4DHJk20OJU/XxMGYAHIy7I/AAAAAAAABD4/Omms4j5A9gA87agn4oh9ii0mXwxwSxSygCLcBGAsYHQ/s0/komptik-apps-icon168.png",
+    "sizes": "168x168",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-2Qt2IYCJ1TI/Xwxcn3V6dNI/AAAAAAAABDM/JlXuwmDgU20hsgXsVRNXSHWKLh9s8ZT8wCLcBGAsYHQ/s0/komptik-apps-icon192.png",
     "sizes": "192x192",
+    "type": "image/png"
+  }, {
+    "src": "https://1.bp.blogspot.com/-dcfPKUZX7zU/XxMGYC7D9II/AAAAAAAABEA/d-EWHpw_76sMME6MrwWAd0xc6Bw8R7VmwCLcBGAsYHQ/s320/komptik-apps-icon512.png",
+    "sizes": "512x512",
     "type": "image/png"
   }]
 }
