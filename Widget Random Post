@@ -1,0 +1,38 @@
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+<style>
+#toggle-bar{z-index:99999999;background: -webkit-linear-gradient(top, #333, #000); background: -moz-linear-gradient(top, #333, #000); background: -ms-linear-gradient(top, #333, #000); background: -o-linear-gradient(top, #333, #000); background: linear-gradient(to bottom, #333, #000);color: #fafafa;height:50px;width:100%;position:fixed; top:0; left:0;margin-bottom:50px; }
+#toggle-bar-inner {line-height:50px;width:310px;margin:auto;text-transform:uppercase;font-size:12px;font-family:Verdana, Geneva, sans-serif;}
+#toggle-bar-inner img {float:right; width:50px;cursor:pointer;}
+.toggle-posts{width:100%;min-height:200px auto;background:#222;color:#fafafa;box-shadow:0px 3px 4px #ccc;-webkit-box-shadow:0px 3px 4px #ccc;position:absolute;display:none;}
+#toggle-posts-inner{width:980px;margin:auto;}
+ul#toggle-random li {width:150px;height:auto;list-style:none;float:left;margin:auto;margin-right:5px;}
+.title-toggle h5{font-weight:normal;}
+ul#toggle-random li img {opacity:0.8;width:100px;border-radius:3px;-webkit-border-radius:3px;-moz-border-radius:3px; border:3px solid #000;margin-top:5px;}
+ul#toggle-random li img:hover {opacity:1;}
+body{margin-top:50px;}
+.credit img{position:absolute;top:15px;left:10px;width:20px;float:left;}
+.arrow-rotate {transform:rotate(-180deg);-webkit-transform:rotate(-180deg);-moz-transform:rotate(-180deg);-o-transform:rotate(-180deg);transition:all ease .5s;-moz-transition:all ease .5s;-webkit-transition:all ease .5s;-o-transition:all ease .5s;-ms-transition:all ease .5s;}
+.post-show {display: block; animation: toggle .6s; -webkit-animation: toggle .6s; -webkit-transition: all ease .5s; transition: all ease .5s;} <!-- (shownya bisa dengan kode css lain) -->
+@keyframes toggle {from {transform:scale(0,0);-moz-transform:scale(0,0)} to {transform:scale(1,1);-moz-transform:scale(1,1)}}
+@-webkit-keyframes toggle {from {transform:scale(0,0);-webkit-transform:scale(0,0);} to {transform:scale(1,1);-webkit-transform:scale(1,1)}}
+</style>
+<script>
+$(document).ready(function(){
+$("#arrow").click(function(){
+$("#arrow").toggleClass("arrow-rotate");
+$(".toggle-posts").toggleClass("post-show");
+});
+});
+</script>
+<div id="toggle-bar">
+<a class="credit" href='https://suhendarprihanta.blogspot.co.id/' target='_blank'><img src='https://4.bp.blogspot.com/-UCFKjn9-W8A/VIyGit_FoJI/AAAAAAAAJ0c/J5Xk0MCKalM/s1600/getthis.png'/></a>
+<div id="toggle-bar-inner"><img id="arrow" src="https://1.bp.blogspot.com/-ncutEKZNSPo/VOG1oPEglvI/AAAAAAAAKBQ/TTzFs2V5hDE/s1600/arrow.png" /> Sudah baca artikel yang satu ini?<i class="fa fa-hand-o-right"></i>
+</div><!--Inner-->
+<div class="toggle-posts">
+<div id="toggle-posts-inner">
+<ul id="toggle-random">
+<script type="text/javaScript"> var rdp_numposts = 6; var rdp_snippet_length = 0; var rdp_comment = 'Comments';var rdp_current = []; var rdp_total_posts = 0; var rdp_current = new Array(rdp_numposts); function totalposts(a){rdp_total_posts=a.feed.openSearch$totalResults.$t}document.write('<script type="text/javascript" src="/feeds/posts/default?alt=json-in-script&max-results=0&callback=totalposts"><\/script>');function getvalue(){for(var b=0;b<rdp_numposts;b++){var d=false;var c=get_random();for(var a=0;a<rdp_current.length;a++){if(rdp_current[a]==c){d=true;break}}if(d){b--}else{rdp_current[b]=c}}}function get_random(){var a=1+Math.round(Math.random()*(rdp_total_posts-1));return a}; </script> <script type="text/javaScript"> function random_posts(n){a=location.href;y=a.indexOf("?m=0");for(var f=0;f<rdp_numposts;f++){var l=n.feed.entry[f];var m=l.title.$t;if("content" in l){var o=l.content.$t}else{if("summary" in l){var o=l.summary.$t}else{var o=""}}o=o.replace(/<[^>]*>/g,"");if(o.length<rdp_snippet_length){var k=o}else{o=o.substring(0,rdp_snippet_length);var b=o.lastIndexOf(" ");k=o.substring(0,b)+"&#133;"}for(var e=0;e<l.link.length;e++){if("thr$total" in l){var h=l.thr$total.$t+" "+rdp_comment}else{h=rdp_disable}if(l.link[e].rel=="alternate"){var d=l.link[e].href;if(y!=-1){d=d+"?m=0"}var g=l.published.$t;if("media$thumbnail" in l){var c=l.media$thumbnail.url}else{c="https://3.bp.blogspot.com/-vU_bFRhb7Kg/VOHxty5Z4vI/AAAAAAAAKBw/-wZFZPZbXJM/s1600/no-image.jpg"}}}document.write("<li>");document.write('<a href="'+d+'" rel="nofollow"><img alt="'+m+'" src="'+c+'"/></a>');document.write('<div class="title-toggle"><h5>'+m+"</h5>")}}getvalue();for(var i=0;i<rdp_numposts;i++){document.write('<script type="text/javascript" src="/feeds/posts/default?alt=json-in-script&start-index='+rdp_current[i]+'&max-results=1&callback=random_posts"><\/script>')}; </script>
+</ul>
+</div>
+</div>
+</div>
